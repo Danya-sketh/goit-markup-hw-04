@@ -182,6 +182,19 @@ body {
     background-color: #F4F4FD;
     border-radius: 4px;
     margin-bottom: 8px;
+    width: 264px;
+height: 112px;
+order: 0;
+flex-grow: 0;
+}
+
+.about-ul-svg {
+    display: flex;
+    gap: 24px;
+}
+
+.about-li-svg {
+    margin-left: 156px;
 }
 
 .about-us {
