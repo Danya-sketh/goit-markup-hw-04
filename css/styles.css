@@ -321,10 +321,12 @@ flex-grow: 0;
     text-align: center;
 }
 
+
 .team-soc-list {
     display: flex;
     justify-content: center;
     gap: 24px;
+    margin-bottom: 32px;
 }
 
 .team-soc-li {
@@ -336,6 +338,7 @@ flex-grow: 0;
     width: 100%;
     height: 100%;
     border-radius: 50%;
+    background-color: var(--logo-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -347,7 +350,7 @@ flex-grow: 0;
 }
 
 .team-soc-svg {
-    fill: var(--portf-btn-backgr-color);
+    fill: black;
 }
 
 /*------------- FOOTER --------------*/
