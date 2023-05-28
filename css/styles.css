@@ -4,6 +4,7 @@
     --address-color: #434455;
     --portf-btn-backgr-color: #F4F4FD;
     --portfolio-color: #E7E9FC;
+    --custom-color: #8E8F99;
 }
 
 img {
@@ -352,6 +353,53 @@ flex-grow: 0;
 .team-soc-svg {
     fill: black;
 }
+
+/*--------------- CUSTOM ----------------*/
+
+.custom {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.custom-h {
+    font-size: 36px;
+    line-height: 1.11;
+    color: var(--text-color);
+    margin-bottom: 72px;
+}
+
+.custom-list {
+    display: flex;
+    gap: 24px;
+}
+
+.custom-item {
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+}
+
+.custom-a {
+    height: 100%;
+    width: 100%;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--custom-color);
+}
+
+.custom-a:hover,
+.custom-a:focus {
+    border-color: #404BBF;
+    color: #404BBF;
+}
+
+.custom-svg {
+    fill: currentColor;
+}
+
+
 
 /*------------- FOOTER --------------*/
 
