@@ -440,6 +440,7 @@ flex-grow: 0;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--footer-p-color);
+    margin: auto;
     margin-bottom: 16px;
 }
 
