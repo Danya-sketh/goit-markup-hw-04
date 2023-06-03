@@ -376,6 +376,7 @@ flex-grow: 0;
     line-height: 1.11;
     color: var(--text-color);
     text-align: center;
+    margin: auto;
     margin-bottom: 72px;
 }
 
